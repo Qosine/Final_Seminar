@@ -5,7 +5,7 @@ set.seed(123456)
 
 library(mvtnorm); library(dplyr); library(survey); library(ggplot2); library(robustbase); library(xtable); library(Rfast); library(reshape2); library(ggpubr)
 # Pathing - fix this on your machine first (set to local Git directory)
-path = "C:/Users/marti/Documents/GitHub/Seminar"
+# path = "C:/Users/marti/Documents/GitHub/Seminar"
 # path = "~/Documents/Econometrie/Masters/Seminar Nielsen"
 #path = "D:/brian/Documents/EUR/19-20 Business Analytics and QM/Block 3/Seminar Case Studies/Git/Seminar"
 setwd(path)

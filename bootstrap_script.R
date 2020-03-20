@@ -4,9 +4,9 @@ library(mvtnorm); library(dplyr); library(survey); library(ggplot2); library(rob
 library(Rfast); library(reshape2); library(ggpubr)
 
 # Pathing - fix this on your machine first (set to local Git directory)
-#path = "C:/Users/marcs/OneDrive/Bureaublad/Master/Seminar/Seminar/GitHub/Seminar"
+# path = "C:/Users/marcs/OneDrive/Bureaublad/Master/Seminar/Seminar/GitHub/Seminar"
 # path = "~/Documents/Econometrie/Masters/Seminar Nielsen/Seminar"
-path = "D:/brian/Documents/EUR/19-20 Business Analytics and QM/Block 3/Seminar Case Studies/Git/Seminar"
+# path = "D:/brian/Documents/EUR/19-20 Business Analytics and QM/Block 3/Seminar Case Studies/Git/Seminar"
 setwd(path)
 source("./200302_simulation_support_functions.R")
 
