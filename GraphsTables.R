@@ -104,23 +104,23 @@ true_population_params = transform_total_params(P10_ratio,
                                                 target_params_w_Dem,
                                                 nontarget_params_w_Dem)
 # for P20
-# c <- c("N2000_Q40_P20","N2000_Q45_P20","N2000_Q50_P20","N2000_Q55_P20","N2000_Q60_P20","N2000_Q65_P20","N2000_Q70_P20","N2000_Q75_P20","N2000_Q80_P20","N2000_Q85_P20","N2000_Q90_P20",
-#        "N3000_Q40_P20","N3000_Q45_P20","N3000_Q50_P20","N3000_Q55_P20","N3000_Q60_P20","N3000_Q65_P20","N3000_Q70_P20","N3000_Q75_P20","N3000_Q80_P20","N3000_Q85_P20","N3000_Q90_P20",
-#        "N5000_Q40_P20","N5000_Q45_P20","N5000_Q50_P20","N5000_Q55_P20","N5000_Q60_P20","N5000_Q65_P20","N5000_Q70_P20","N5000_Q75_P20","N5000_Q80_P20","N5000_Q85_P20","N5000_Q90_P20")
-# true_population_params = transform_total_params(P20_ratio,
-#                                                 target_params_w_Dem,
-#                                                 nontarget_params_w_Dem)
+c <- c("N2000_Q40_P20","N2000_Q45_P20","N2000_Q50_P20","N2000_Q55_P20","N2000_Q60_P20","N2000_Q65_P20","N2000_Q70_P20","N2000_Q75_P20","N2000_Q80_P20","N2000_Q85_P20","N2000_Q90_P20",
+       "N3000_Q40_P20","N3000_Q45_P20","N3000_Q50_P20","N3000_Q55_P20","N3000_Q60_P20","N3000_Q65_P20","N3000_Q70_P20","N3000_Q75_P20","N3000_Q80_P20","N3000_Q85_P20","N3000_Q90_P20",
+       "N5000_Q40_P20","N5000_Q45_P20","N5000_Q50_P20","N5000_Q55_P20","N5000_Q60_P20","N5000_Q65_P20","N5000_Q70_P20","N5000_Q75_P20","N5000_Q80_P20","N5000_Q85_P20","N5000_Q90_P20")
+true_population_params = transform_total_params(P20_ratio,
+                                                target_params_w_Dem,
+                                                nontarget_params_w_Dem)
 # for P40
-# c <- c("N2000_Q40_P40","N2000_Q45_P40","N2000_Q50_P40","N2000_Q55_P40","N2000_Q60_P40","N2000_Q65_P40","N2000_Q70_P40","N2000_Q75_P40","N2000_Q80_P40","N2000_Q85_P40","N2000_Q90_P40",
-#        "N3000_Q40_P40","N3000_Q45_P40","N3000_Q50_P40","N3000_Q55_P40","N3000_Q60_P40","N3000_Q65_P40","N3000_Q70_P40","N3000_Q75_P40","N3000_Q80_P40","N3000_Q85_P40","N3000_Q90_P40",
-#        "N5000_Q40_P40","N5000_Q45_P40","N5000_Q50_P40","N5000_Q55_P40","N5000_Q60_P40","N5000_Q65_P40","N5000_Q70_P40","N5000_Q75_P40","N5000_Q80_P40","N5000_Q85_P40","N5000_Q90_P40")
-# true_population_params = transform_total_params(P40_ratio,
-#                                                 target_params_w_Dem,
-#                                                 nontarget_params_w_Dem)
+c <- c("N2000_Q40_P40","N2000_Q45_P40","N2000_Q50_P40","N2000_Q55_P40","N2000_Q60_P40","N2000_Q65_P40","N2000_Q70_P40","N2000_Q75_P40","N2000_Q80_P40","N2000_Q85_P40","N2000_Q90_P40",
+       "N3000_Q40_P40","N3000_Q45_P40","N3000_Q50_P40","N3000_Q55_P40","N3000_Q60_P40","N3000_Q65_P40","N3000_Q70_P40","N3000_Q75_P40","N3000_Q80_P40","N3000_Q85_P40","N3000_Q90_P40",
+       "N5000_Q40_P40","N5000_Q45_P40","N5000_Q50_P40","N5000_Q55_P40","N5000_Q60_P40","N5000_Q65_P40","N5000_Q70_P40","N5000_Q75_P40","N5000_Q80_P40","N5000_Q85_P40","N5000_Q90_P40")
+true_population_params = transform_total_params(P40_ratio,
+                                                target_params_w_Dem,
+                                                nontarget_params_w_Dem)
 
 #for p10
-# true_population_params <- (CPS[ "25-34","Male"]*target_params_w_Dem
-#                           + (1-CPS["25-34","Male"])*nontarget_params_w_Dem)
+true_population_params <- (CPS[ "25-34","Male"]*target_params_w_Dem
+                          + (1-CPS["25-34","Male"])*nontarget_params_w_Dem)
 
 
 cols <- c("/mu_E PB", "/mu SB",		"max_E PB", "Max_E PB",	"/mu_D pB",	"/mu_D SB",

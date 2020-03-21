@@ -4,8 +4,8 @@ library(mvtnorm); library(simcausal); library(dplyr); library(survey); library(g
 library(invgamma)
 
 # Pathing - fix this on your machine first (set to local Git directory)
-path = "~/Documents/Econometrie/Masters/Seminar Nielsen"
-path = "D:/brian/Documents/EUR/19-20 Business Analytics and QM/Block 3/Seminar Case Studies/Git/Seminar"
+# path = "~/Documents/Econometrie/Masters/Seminar Nielsen"
+# path = "D:/brian/Documents/EUR/19-20 Business Analytics and QM/Block 3/Seminar Case Studies/Git/Seminar"
 setwd(path)
 source("./200302_simulation_support_functions.R")
 
