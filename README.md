@@ -1,30 +1,10 @@
-# Final_Seminar
-This is the README from the git repository with all code used for the Seminar
+# README_Seminar_Group4_Nielsen
 
+This is the README provided for the code used with the Seminar simulations
 
-First the following files should be run before the final simulation:
-bootstrap_script.R
+Included are the files; 
+- simulation_support_functions.R
+- simulation_script.R
 
-
--  Simulation_support_functions.R
--  Create_simulated_predictors.R
-
-
-
-Then for the simulation:
-final_simulation_script.R
-or 
-final_simulation_script_inc_controlvar.R
-
-
-Scripts that can be run seperately:
-Descriptives.R                #for the descriptive statistics
-AwarenessGraph.R              #for the time trend in KPI's
-glm_draft.R                   #for prediction (accuracies) of the logit
-Marginal_Effects.R            #for marginal effects
-GraphsTables.R                #for printing of the graphs and tables 
-
-
-
--  Reference_script.R
--  Simulated_vs_real_dataset.R
+The first one contains functions that will be called in the latter; these should be run first.
+For the latter, the local pathing should be defined before running.
